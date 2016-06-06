@@ -139,7 +139,9 @@ from Miami International University of Art & Design.</p>
 		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
 	</div>
 	<input id="submit_button" type="submit" value="Send email" />
-</form>					
+</form>	
+ 
+the form again."; } else{ $from="From: $name<$email>\r\nReturn-path: $email"; $subject="Message sent using your contact form"; mail("youremail@yoursite.com", $subject, $message, $from); echo "Email sent!"; } } ?>
 
 <br>
 <footer>
