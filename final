@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Linny Monteiro Design</title>
+<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://necolas.github.io/normalize.css/5.0.0/normalize.css">
+</head>
+<style>
+	
+html {
+		height: 100%;
+	}
+	
+body {
+ color: black;
+ font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	height: 100%;
+position: relative;
+	
+}
+header {
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 14px;
+	text-align: right;
+	color: black;
+	
+}
+header nav a {
+	color: black;
+	text-decoration: none;
+	
+}
+header nav a:hover {
+	text-decoration: none;
+	color: black;
+	border-bottom: 5px solid black;
+}
+
+h2 {
+	font-family: 'Questrial', sans-serif;
+	color: white;
+	font-weight: lighter;
+	padding: 10px 60px 300px 70px
+}
+h3 {
+	background-color: #7D0B25;
+	color: white;
+ font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+	
+}
+h4 {
+	color: white;
+ font-family;
+"Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+}
+
+	h5 {
+		color: white;
+ font-family;
+"Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-weight: bold;
+	text-align: left;
+	font-size: 20px;
+	}
+p {
+	color: white;
+	text-align: center;
+	font-family: 'Questrial', sans-serif;
+}
+	@import "compass/css3";
+
+*, 
+*:before, 
+*:after {
+   @include box-sizing(border-box); 
+	
+}
+
+
+h1 {
+   text-align: center;
+   color: white;
+   @include text-shadow(1px 1px 0 rgba(white, 1));
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 0px auto;
+	background-color: #7D0B25;
+  
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+	
+    
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+  
+  #input-submit {
+     color: white; 
+     background: $red;
+     cursor: pointer;
+    
+    &:hover {
+       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+  }
+  
+  textarea {
+      height: 126px;
+  }
+}
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%; 
+     float: none;
+     margin-bottom: 0; 
+  }
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+		
+	}
+#intro {
+ background-image: ("/background.png");
+	width: 100%;
+	height: 600px;
+	float: left;
+	zoom: 1;
+}
+#logo {
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	float: left;
+}
+#about {
+	background-color: #7D0B25;
+	width: 1300px;
+	height: 200px;
+	text-align: center;
+	float: left;
+	zoom: 1;
+}
+#works {
+	background-color: #030303;
+	width: 1300px;
+	height: 400px;
+	text-align: center;
+	float: left;
+	zoom: 1;
+}
+	#contact {
+		background-color: #7D0B25;
+		width: 100%;
+		float: left;
+	}	
+	
+	#footer {
+		color: white;
+	right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  background-color: black;
+  text-align: center;
+bottom: 0;
+	}
+	
+</style>
+<body>
+<header>
+ <nav>
+    <section id="logo"><img src="../images/WebFinalProject_03.gif" alt="Linny Monteiro Creative" name="logo" width="300" height="50" id="logo"/>
+    <a href="#about">ABOUT</a><a href="works">WORKS</a><a href="contact">CONTACT</a></section>
+  </nav>
+  
+</header>
+<div id="intro"> <img src="background.png" width="100%" alt=""/>
+</div>
+<img>
+<div id="about">
+  <h3> ABOUT.</h3>
+  <p>Passionate about design, typography, and digital marketing. <br>
+    Currently pursuing a bachelor of fine arts degree in graphic & web design <br>
+    at miami international university of art & design.</p>
+</div>
+<div id="works">
+  <div class="row">
+    <h4> WORKS.</h4>
+    <img src="../ART Projects /jblmockup.jpg" width="400" height="200" alt=""/> <img src="../ART Projects /jblcataloguemockup.jpg" width="400" height="200" alt=""/> <img src="../ART Projects /venicebeach.jpg" width="400" height="200" alt=""/> </div>
+</div>
+
+<div id="contact">
+	<h5> CONTACT. </h5>
+<p>Want to discuss your ideas for a project or just want to say hi? Awesome! <br>
+		Go ahead, I'd love to connect with you. </p>
+	
+
+<h1>Let's get in touch!</h1>
+<form class="cf">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</form>
+</div>
+<div id="footer">made with love & pixels | Copyright 2017 | Linny Monteiro Design</div>
+</body>
+</html>
